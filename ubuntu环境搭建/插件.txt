@@ -1,0 +1,62 @@
+
+sudo apt-get install android-tools-adb 
+
+sudo apt-get install rpm
+
+sudo apt-get install expect
+
+
+
+http://blog.sina.com.cn/s/blog_60b545010101hl0t.html
+
+正式开始Django学习历程。要用Django第一步就是要配置好环境啊。
+
+我的配置：
+OS:              Ubuntu 12.10
+Server:         Apache 2.2.22
+Database:    MySQL 5.5.29
+Framework: Django 1.5
+
+Apache安装：
+第一步：安装Apache2。
+在terminal输入sudo apt-get install apache2
+
+第二步：安装mod_wsgi。
+在terminal输入sudo apt-get install libapache2-mod-wsgi
+
+MySQL安装：
+第一步：安装MySQL server。
+在terminal输入sudo apt-get install mysql-server
+
+第二步：安装MySQL的python接口。
+在terminal输入sudo apt-get install python-mysqldb
+
+Django安装：
+第一步：下载Django软件包。 我们现在自己用的是（Django1.6 版本的）
+可以从Django的官网下载，这里是地址，https://www.djangoproject.com/download/。点击First, download Django-1.5.1.tar.gz (checksums)就开始下载了。
+
+第二步：解压缩Django软件包。
+如果你用GUI的话，那么就直接双击就可以了。如果在terminal，输入tar -zxvf {file}.tar.gz。这里{file}是你的Django文件包的名字。
+
+第三步：安装Django软件包。
+cd进入解压缩得到的文件夹，然后输入sudo python setup.py install。安装完成！
+
+
+---------------------------------------------------------------------------------------------------------------
+安装ubuntu .bed文件
+sudo dpkg -i +文件名.bde
+
+在ubuntu中新建文件夹
+
+路径下 mkdir +文件名
+
+删除文件
+路径下 rmdir +文件名
+
+
+ubuntu14.04有些网站打不开的解决方法 DNS设置 
+http://blog.csdn.net/u013359794/article/details/53636287
+
+
+
+
